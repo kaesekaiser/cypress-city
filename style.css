@@ -10,21 +10,38 @@
   font-weight: bold;
 }
 
+html {
+  margin: 0;
+  font-size: 20px;
+}
+
 body {
   background-color: #0F1C0A;
   color: white;
   font-family: "Ubuntu Mono", Courier;
-  text-align: center;
 }
 
 #topbar {
   width: 100%;
-  text-align: left;
-  margin: 0;
+  min-height: 20px;
 }
 
 #topbar p {
   margin-top: 0;
+}
+
+#topbar a {
+  text-decoration: none;
+}
+
+#topbar-links {
+  float: right;
+}
+
+.topbar-link {
+  margin-left: 120px;
+  float: left;
+  text-align: right;
 }
 
 #main {
@@ -35,26 +52,29 @@ body {
 
 #main p {
   font-size: 20px;
+  text-align: center;
 }
 
 h1 {
   text-shadow: 3px 3px #778877;
   font-size: 36px;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
-  text-shadow: 2px 2px #778877;
   font-size: 30px;
   padding-top: 20px;
+  text-align: center;
 }
 
 a {
-  color: white;
+  color: #99FF9E;
+  text-decoration: none;
   transition: color 0.3s, background-color 0.3s, text-decoration-color 0.3s;
 }
 
 a:hover {
   color: #0F1C0A;
-  background-color: white;
+  background-color: #99FF9E;
 }
