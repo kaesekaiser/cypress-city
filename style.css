@@ -64,7 +64,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  padding-top: 20px;
+  padding-top: 16px;
   text-align: center;
 }
 
@@ -77,4 +77,9 @@ a {
 a:hover {
   color: #0F1C0A;
   background-color: #99FF9E;
+}
+
+.centered-image {
+  text-align: center;
+  padding-top: 16px;
 }
