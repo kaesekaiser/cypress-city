@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: #0F1C0A;
+  background-image: url("cypress_wrap.png");
   color: white;
   font-family: "Ubuntu Mono", Courier;
 }
